@@ -7,7 +7,7 @@ from flask import Flask, request
 import threading
 
 # Cấu hình bot
-BOT_TOKEN = "8351128906:AAGPu1jGpL-r0oKWvXDIwJfYkK8sl5Ias-A"
+BOT_TOKEN = "8351128906:AAFCxpfZggdLDzJJQxxugUW4g4Hqf3awAdw"
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML")
 
 # Tạo Flask app
